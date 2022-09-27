@@ -1,0 +1,92 @@
+/*@font-face {
+    font-family: dosis;
+    src: url(fonts/Dosis-VariableFont_wght.ttf);
+}
+*/
+body {margin: 0; padding: 0; user-select: none; scroll-behavior: smooth;}
+.title {font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; text-align: center; font-size: 56px; }
+.title:hover {
+font-size: 60px;
+letter-spacing: 6px;
+text-shadow: 6px 6px 0 black;
+transition: all 200ms ease;
+}
+.title:not(hover) {transition-duration: 200ms;}
+#aboutsection {
+background-color: #164f5a; 
+color: #fff;
+padding: 10px; 
+height: 400px;
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+}
+#aboutme{
+    width: 390px;
+    margin: auto;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+#sub {text-shadow: none;}
+#pc {width: 500px;}
+.hr1 {width: 70%; margin: auto;}
+@media screen and (max-width: 1000px) {
+    #aboutsection {
+        height: 540px;
+    }
+    #pc {width: 400px;}
+    .img {text-align: center; margin: auto;}
+}
+@media screen and (max-width: 450px) {
+    #pc {width: 350px;}
+}
+#itens {
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+}
+.item {border: 1px solid rgba(0, 0, 0, 0.219); border-radius: 10px; padding: 10px; font-size: 20px; text-align: center; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; margin-top: 20px;}
+.item:hover {
+    padding: 18px;
+    box-shadow: 2px 2px 6px black;
+    transition: all 200ms ease;
+}
+.item:not(:hover) {
+    transition-duration: 200ms;
+}
+
+
+#mail {border: 2px solid rgb(255, 255, 99); color: rgb(255, 255, 99); font-family: Arial, Helvetica, sans-serif; padding: 10px;}
+
+/*@font-face {
+    font-family: dosis;
+    src: url(../fonts/Dosis-VariableFont_wght.ttf);
+}
+*/
+
+.send {
+    user-select: none;
+    margin-top: 20px;
+    background-color: #2F3340;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 50px;
+    width: 180px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.send:hover {
+    text-shadow: 5px 5px 0px black;
+    box-shadow: 1px 2px 5px black;
+    background-color: #3a3d4d;
+    padding-bottom: 8px;
+    transition: all 200ms ease;
+}
+
+
+
+.send:not(:hover) {
+    transition-duration: 200ms;
+}
